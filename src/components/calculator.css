@@ -1,0 +1,156 @@
+:root {
+    --lime: hsl(61, 70%, 52%);
+    --red: hsl(4, 69%, 50%);
+    --white: hsl(0, 0%, 100%);
+    --slate-100: hsl(202, 86%, 94%);
+    --slate-300: hsl(203, 41%, 72%);
+    --slate-500: hsl(200, 26%, 54%);
+    --slate-700: hsl(200, 24%, 40%);
+    --slate-900: hsl(202, 55%, 16%);
+}
+
+body{
+    background-color: var(--slate-700);
+}
+
+#calculator-container{
+    width: 50%;
+    min-width: 300px;
+    max-width: 450px;
+    border-radius: 1rem;
+    padding: 3%;
+}
+
+#results-container {
+    width: 50%;
+    min-width: 300px;
+    max-width: 450px;
+    text-align: start;
+    padding: 5%;
+    background-color: var(--slate-500);
+    border-radius: 0 1rem 1rem 4rem;
+    align-content: center;
+}
+
+#results-container > div > p {
+    color :var(--slate-300);
+}
+
+#results-inner-container {
+    padding: 10%;
+    border-radius: .5rem;
+    background-color: var(--slate-900);
+    border-top: 4px solid var(--lime);
+}
+
+#results-inner-container > div > p {
+    color: var(--slate-300)
+}
+
+#results-inner-container > div > p:nth-child(2) {
+    color: var(--lime);
+}
+
+#mortgage-amount {
+    width: 95%;
+}
+
+#interest-rate {
+    width: 80%;
+    max-width: 150px;
+}
+
+#mortgage-term {
+    width: 80%;
+    max-width: 150px;
+}
+
+main {
+    margin: 10% auto;
+    width: fit-content;
+    height: fit-content;
+    font-size: 16px;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+label {
+    padding: 2%;
+}
+
+form {
+    height: 80%;
+}
+
+form > div {
+    margin: 1.5vh auto;
+    width: 90%;
+}
+
+header {
+    padding: 3%;
+    padding-bottom: 0;
+    width: 100%;
+}
+
+.huh {
+    outline: 1px solid var(--slate-300);
+}
+
+.huh:hover {
+    outline: 1px solid var(--lime);
+}
+
+.hah {
+    margin: 0 .5rem
+}
+
+h2 {
+    margin: auto;
+    font-size: 24px;
+}
+
+#form-submit {
+    margin: auto 1rem;
+    max-width: 200px;
+}
+
+.logo {
+    text-align: center;
+    min-width: fit-content;
+    width: 50px;
+    padding: 1%;
+}
+
+.this {
+    background-color: var(--slate-300);
+    outline: 1px solid var(--slate-300);
+    border-radius: 5px;
+}
+
+.this:hover {
+    outline: 1px solid var(--lime);
+    background-color: var(--lime);
+}
+
+.fun {
+    outline: 1px solid var(--slate-300);
+    border-radius: 5px;
+    background-color: var(--slate-300);
+    margin: auto 1rem;
+}
+
+.fun:hover {
+    outline: 1px solid var(--lime);
+    background-color: var(--lime);
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+
+h3 {
+    margin: 1rem 0;
+}
